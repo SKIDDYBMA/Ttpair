@@ -75,21 +75,21 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "Caseyrhodes~" + string_session;
+                        let md = "it-techbroh~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
                         let desc = `*Hello there ! 👋* 
 
 > Do not share your session id with anyone.
 
- *Thanks for CASEYRHODES-XMD* 
+ *Thanks for IT-TECH-BRO-S* 
 
 > Join WhatsApp Channel :- ⤵️
  
- https://whatsapp.com/channel/0029VarDt9t30LKL1SoYXy26
+ https://whatsapp.com/channel/0029Vb5e33h96H4QYhiGIQ2V
 
 Dont forget to fork the repo ⬇️
 
-https://github.com/caseyweb/CASEYRHODES-XMD
+https://github.com/techbroh/IT-TECH-BRO-S-
 
 > *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴛᴇᴄʜ*`; 
                         await sock.sendMessage(sock.user.id, {
@@ -98,7 +98,7 @@ contextInfo: {
 externalAdReply: {
 title: "ᴍʀ.ᴄᴀsᴇʏʀʜᴏᴅᴇs",
 thumbnailUrl: "",
-sourceUrl: "https://whatsapp.com/channel/0029VarDt9t30LKL1SoYXy26",
+sourceUrl: "https://whatsapp.com/channel/0029Vb5e33h96H4QYhiGIQ2V",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -112,9 +112,9 @@ renderLargerThumbnail: true
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "CASEYRHODES-XMD",
+title: "IT-TECH-BRO-S ",
 thumbnailUrl: "https://files.catbox.moe/mg79db.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VarDt9t30LKL1SoYXy26",
+sourceUrl: "https://whatsapp.com/channel/0029Vb5e33h96H4QYhiGIQ2V",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
